@@ -1,0 +1,128 @@
+.App {
+    text-align: center;
+}
+
+.container {
+    background-image: url('../src/back-table.jpg');
+    background-size: cover;
+    min-height: 475px;
+}
+
+.ml {
+    margin-left: 165px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+
+.pr-5 {
+    padding-right: 5px;
+}
+
+.dropdown-menu .fa:before {
+    padding-right: 10px;
+}
+
+.text-right {
+    float: right;
+    cursor: pointer;
+}
+
+.text-right:hover {
+    color: red;
+}
+
+.sort_selected::after {
+    content: '\f00c';
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    margin: 0px 0px 0px 10px;
+    display: inline-block;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 6vh;
+    background-color: rgb(54, 54, 78);
+    color: white;
+}
+
+.noHeader {
+    height: 0px;
+    opacity: 0%;
+}
+
+.footer {
+    color: white;
+    background-color: rgb(27, 27, 27);
+    padding: 20px 20px 10px 20px;
+}
+
+.icons-footer {
+    margin-left: 750px;
+    margin-top: 30px;
+}
+
+.copy-right {
+    margin-left: -25px;
+    margin-bottom: -10px;
+    margin-top: 30px;
+}
+
+.main-infor {
+    min-height: 400px;
+}
+
+.infor-agileits {
+    width: 50%;
+    margin: 5px auto;
+}
+
+.personal-infor {
+    display: flex;
+}
+
+.infor {
+    margin-left: 70px;
+    justify-content: space-between;
+    color: white;
+    line-height: 27px;
+    font-size: 15px;
+}
+
+td {
+    min-width: 100px;
+}
+
+.personal-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.head-another-contact {
+    color: white;
+    font-size: 15px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+
+.social{
+    display: flex;
+}
+
+.social .icons {
+    margin-left: 50px;
+}
